@@ -1,0 +1,14 @@
+<mat-card>
+
+    <p>Ingresa el número a verificar: </p>
+    <br> 
+    <form [formGroup]="number">
+    <mat-form-field appearance="outline" class="formfield" fxFlex="100">
+        <mat-label>Número: </mat-label>
+        <input matInput formControlName="num" required />
+      </mat-form-field>
+    </form>
+    
+      <button mat-button class="button" [disabled]="number.invalid" (click)="serieCalculator()">Ingresar</button>
+      <br>
+    </mat-card>

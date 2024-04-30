@@ -1,0 +1,29 @@
+mat-card{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #DDF0FF;
+    width: 20em;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 200px;
+    padding-top:  20px;
+    font-size: x-large;
+    font-weight: 500;
+
+    .button {
+        background-color: #088FFA;
+        color:#ffffff;
+        width: 100px;
+        height: 500px;
+      
+    }
+    .button:disabled {
+        background-color: #DDDDDD;
+        color:#ffffff;
+        width: 100px;
+        height: 500px;
+      
+    }
+
+}
